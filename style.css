@@ -35,6 +35,7 @@ nav {
   width: 150px;
   height: 36px;
   margin-left: 72px;
+  cursor: pointer;
 }
 
 .my-brand {
@@ -171,6 +172,7 @@ nav {
   font-size: 16px;
   background-color: #388087;
   border: none;
+  cursor: pointer;
 }
 
 .to-project:hover {
@@ -187,6 +189,7 @@ nav {
   font-weight: 700px;
   font-size: 16px;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .download-cv:hover {
@@ -400,6 +403,10 @@ ul li {
   cursor: pointer;
 }
 
+.source-name:hover {
+  background-color: #2a5e64;
+}
+
 .work-info {
   margin-top: 30px;
   height: 20px;
@@ -440,6 +447,10 @@ ul li {
   background-color: white;
   border: none;
   cursor: pointer;
+}
+
+.btn-cta:hover {
+  color: #2a5e64;
 }
 
 .btn-cta img {
@@ -489,6 +500,11 @@ th {
   font-size: 14px;
   border-radius: 50px;
   border: none;
+  cursor: pointer;
+}
+
+.on-going:hover {
+  background-color: #fbebb8;
 }
 
 .completed {
@@ -500,6 +516,11 @@ th {
   font-size: 14px;
   border-radius: 50px;
   border: none;
+  cursor: pointer;
+}
+
+.completed:hover {
+  background-color: #b3ecc1;
 }
 
 .planning {
@@ -511,6 +532,11 @@ th {
   font-size: 14px;
   border-radius: 50px;
   border: none;
+  cursor: pointer;
+}
+
+.planning:hover {
+  background-color: #9bcafc;
 }
 
 ul .favorite {
@@ -578,6 +604,7 @@ ul li img {
   border: none;
   background-color: white;
   margin-block: 10px;
+  cursor: pointer;
 }
 
 .cont-footer {
@@ -598,6 +625,7 @@ ul li img {
 }
 
 .my-brandFooter {
+  width: max-content;
   font-weight: 700;
   font-size: 28px;
   line-height: 37px;
@@ -621,6 +649,7 @@ ul li img {
 }
 
 .footer-link {
+  width: max-content;
   margin-bottom: 8px;
   font-weight: 400;
   font-size: 14px;
