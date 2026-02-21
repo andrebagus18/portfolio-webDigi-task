@@ -1,0 +1,295 @@
+@media (max-width: 768px) {
+  .navbar-brand {
+    margin-left: 40px;
+  }
+  .navbar-nav {
+    margin-right: 40px;
+  }
+  .hero {
+    margin-inline: 40px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hero-img {
+    width: 300px;
+    height: 420px;
+    margin-left: 0;
+  }
+  .hero-img img {
+    width: 380px;
+    height: 420px;
+  }
+  .bio {
+    grid-column: span 1;
+    width: 300px;
+    margin-left: 0;
+  }
+  .my-name {
+    font-size: 28px;
+  }
+  .job-title {
+    font-size: 16px;
+    margin-block: 0;
+  }
+  .desc {
+    width: 300px;
+    font-size: 14px;
+  }
+  .sosmed {
+    width: 300px;
+    flex-wrap: wrap;
+    margin-block: 10px;
+  }
+  .sosmed a {
+    color: black;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .cta {
+    width: 400px;
+    height: 40px;
+  }
+  .to-project {
+    width: 130px;
+    height: 40px;
+  }
+  .download-cv {
+    width: 140px;
+    height: 40px;
+  }
+  .about,
+  .my-job,
+  .timeline,
+  .contact {
+    padding-inline: 40px;
+  }
+  .title-about h1,
+  .title-job h1,
+  .title-timeline h1,
+  .title-contact h1,
+  .title-about span,
+  .title-job span,
+  .title-timeline span,
+  .title-contact span {
+    font-size: 30px;
+  }
+  .underline {
+    width: 40px;
+  }
+  .skill-title,
+  .exp-title {
+    margin-bottom: 10px;
+  }
+  .skill-title img {
+    width: 30px;
+    height: 22px;
+  }
+  .exp-title img {
+    width: 26px;
+    height: 26px;
+  }
+  .skill-name,
+  .exp-name {
+    font-size: 18px;
+  }
+  .skill-names,
+  .tools,
+  .study-title {
+    font-size: 16px;
+  }
+  .list-skill {
+    font-size: 16px;
+    margin-block: 10px;
+    margin-left: 10px;
+  }
+  .period {
+    margin-left: 2px;
+    margin-bottom: 10px;
+  }
+  .since {
+    font-size: 14px;
+  }
+  .since-desc {
+    font-size: 14px;
+  }
+  thead tr,
+  tbody tr {
+    font-size: 14px;
+  }
+  .info-contact {
+    margin-bottom: 10px;
+  }
+  .email,
+  .tel,
+  .location {
+    font-size: 14px;
+  }
+  .mail,
+  .telp,
+  .loc {
+    margin-block: 0;
+    margin-top: 5px;
+  }
+  .btn-contact {
+    margin-block: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-nav {
+    display: none;
+  }
+  .about {
+    margin-top: 50px;
+  }
+  .my-job {
+    margin-top: 100px;
+  }
+  .hero {
+    margin-inline: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+  }
+  .hero-img {
+    order: 1;
+    width: 300px;
+    height: 420px;
+    margin-inline: 100px;
+  }
+  .hero-img img {
+    width: 380px;
+    height: 420px;
+  }
+  .bio {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+  }
+  .my-name {
+    font-size: 28px;
+  }
+  .job-title {
+    font-size: 16px;
+    margin-block: 0;
+  }
+  .desc {
+    width: 100%;
+    font-size: 14px;
+  }
+  .sosmed {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-block: 10px;
+  }
+  .main-footer {
+    padding-inline: 40px;
+  }
+  .my-skill {
+    font-size: 14px;
+  }
+  .link {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 435px) {
+  .navbar-nav {
+    display: none;
+  }
+  .about {
+    margin-top: 50px;
+  }
+  .history,
+  .my-info {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+  }
+  .my-contact {
+    padding-top: 0;
+  }
+  .my-job {
+    margin-top: 100px;
+  }
+  .hero {
+    margin-inline: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  .hero-img {
+    order: 1;
+    width: 200px;
+    height: 320px;
+    margin-inline: 80px;
+  }
+
+  .hero-img img {
+    width: 280px;
+    height: 320px;
+  }
+  .bio {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+  }
+  .my-name {
+    font-size: 28px;
+  }
+  .job-title {
+    font-size: 16px;
+    margin-block: 0;
+  }
+  .desc {
+    width: 100%;
+    font-size: 14px;
+  }
+  .sosmed {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-block: 10px;
+  }
+  .about,
+  .my-job,
+  .timeline,
+  .contact {
+    padding-inline: 24px;
+  }
+  .timeline {
+    margin-top: 0;
+  }
+  .timeline-project {
+    overflow-x: auto;
+  }
+  table {
+    min-width: 500px;
+    width: 100%;
+  }
+  .main-footer {
+    padding-inline: 20px;
+  }
+  .my-brandFooter {
+    font-size: 20px;
+  }
+  .footer-link {
+    font-size: 12px;
+  }
+  .title-link,
+  .title-follow {
+    font-size: 14px;
+  }
+  .icon-going {
+    width: 20px;
+    height: 20px;
+  }
+  .my-skill {
+    font-size: 12px;
+  }
+  .link {
+    margin-left: 10px;
+  }
+}
